@@ -73,7 +73,7 @@
     
     <li>
       <a href="/about" class="">
-        About me
+        About
       </a>
     </li>
     
@@ -108,8 +108,8 @@
   document.addEventListener('DOMContentLoaded', function () {
     const theme = localStorage.getItem('theme');
 
-    if (!theme || theme === 'light') {
-      setTheme('light');
+    if (!theme || theme === 'dark') {
+      setTheme('dark');
     } else {
       setTheme(theme);
     }
@@ -148,19 +148,91 @@
 </script>
     </div>
   
-    <main id="content"> 
+    <main id="content">
 
-<div class="py-2 flex flex-col gap-1">
-  <h3 class="title-small">Ahoy There!</h3>
+
+
+
+<div class="flex flex-col gap-1">
+  <h1 class="text-2xl font-extrabold">
+    
+      Latest Posts
+      
+    </h1>
+  
+  
+    <!-- raw HTML omitted -->
+
+  
 </div>
 
-    <section><p>Lowkey is a Clean and Simple Hugo theme inspired by <a href="https://adamwathan.me/">Adam Wathan&rsquo;s</a> Website. Suitable for use as a personal blog, portofolio, etc.</p>
-<p>This theme uses TailwindCSS, so it&rsquo;s easy to customize.</p>
-<p>If you are interested in using this theme, you can get it on <a href="#">GitHub</a>.</p>
-<p><strong>Example Description:</strong></p>
-<p>Alex Lowkey is a professor of artificial intelligence at the Unknow AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</p>
-<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.</p>
- </section>
+<section class="flex flex-col gap-10">
+  
+    <article class="flex flex-col gap-1">
+  <h1>
+    <a href="https://nphuang.github.io/posts/first-post/">First post</a>
+  </h1>
+  
+  <span class="date">
+    <time datetime="2024-03-30 16:21:53 &#43;0800 CST" title='Sat, Mar 30, 2024, 4:21 PM CST'>
+      30/03/2024
+    </time>
+  </span>
+
+  <div class="description">
+    
+      ########
+    
+  </div>
+
+  <div class="mt-2">
+    <a class="read-more" href="https://nphuang.github.io/posts/first-post/">
+      Read more
+      <span class="w-4 h-4 stroke-2">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+</svg>
+
+      </span>
+    </a>
+  </div>
+</article>
+
+  
+    <article class="flex flex-col gap-1">
+  <h1>
+    <a href="https://nphuang.github.io/posts/markdown-cheat-sheet/">Markdown Cheat Sheet</a>
+  </h1>
+  
+  <span class="date">
+    <time datetime="2022-08-27 09:16:45 &#43;0000 UTC" title='Sat, Aug 27, 2022, 9:16 AM UTC'>
+      27/08/2022
+    </time>
+  </span>
+
+  <div class="description">
+    
+      Markdown is a powerful tool for creating rich text using a plain text editor. This cheatsheet is a quick reference for Markdown syntax.
+    
+  </div>
+
+  <div class="mt-2">
+    <a class="read-more" href="https://nphuang.github.io/posts/markdown-cheat-sheet/">
+      Read more
+      <span class="w-4 h-4 stroke-2">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+</svg>
+
+      </span>
+    </a>
+  </div>
+</article>
+
+  
+</section>
+
+
 
 
     </main><footer class="pt-5 pb-10 grid gap-3 sm:grid-cols-2">
@@ -182,11 +254,11 @@
     
     
     <li>    
-      <a href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+      <a href="mailto:phqq.cs10@nycu.edu.tw" target="_blank" rel="noopener noreferrer">Email</a>
     </li>
     
     <li>    
-      <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/nphuang" target="_blank" rel="noopener noreferrer">GitHub</a>
     </li>
     
     

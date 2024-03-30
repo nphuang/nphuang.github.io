@@ -1,10 +1,14 @@
 User-agent: *
 
+Disallow: /categories/
+
+Disallow: /posts/first-post/
+
 Disallow: /
 
 Disallow: /posts/
 
-Disallow: /categories/
+Disallow: /categories/uncategories/
 
 Disallow: /tags/hello/
 
@@ -14,10 +18,8 @@ Disallow: /posts/markdown-cheat-sheet/
 
 Disallow: /tags/
 
-Disallow: /tags/whatsapp/
+Disallow: /about/
 
 Disallow: /categories/css/
 
 Disallow: /categories/javascript/
-
-Disallow: /categories/uncategories/

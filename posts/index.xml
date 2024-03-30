@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post on phhuang</title>
+    <title>Posts on phhuang</title>
     <link>https://nphuang.github.io/posts/</link>
-    <description>Recent content in Post on phhuang</description>
+    <description>Recent content in Posts on phhuang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sat, 27 Aug 2022 09:16:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Mar 2024 16:21:53 +0800</lastBuildDate>
     <atom:link href="https://nphuang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First post</title>
+      <link>https://nphuang.github.io/posts/first-post/</link>
+      <pubDate>Sat, 30 Mar 2024 16:21:53 +0800</pubDate>
+      <guid>https://nphuang.github.io/posts/first-post/</guid>
+      <description>########</description>
+    </item>
     <item>
       <title>Markdown Cheat Sheet</title>
       <link>https://nphuang.github.io/posts/markdown-cheat-sheet/</link>

@@ -8,7 +8,7 @@
 <title>Uncategories</title>
 <meta
   name="description"
-  content="Description"
+  content=" "
 />
 <link rel="canonical" href="https://nphuang.github.io/categories/uncategories/" />
 <link rel="robots" href="/robots.txt" />
@@ -72,7 +72,7 @@
     
     <li>
       <a href="/about" class="">
-        About me
+        About
       </a>
     </li>
     
@@ -107,8 +107,8 @@
   document.addEventListener('DOMContentLoaded', function () {
     const theme = localStorage.getItem('theme');
 
-    if (!theme || theme === 'light') {
-      setTheme('light');
+    if (!theme || theme === 'dark') {
+      setTheme('dark');
     } else {
       setTheme(theme);
     }
@@ -160,12 +160,43 @@
     </h1>
   
   
-    <p>Description</p>
+    <!-- raw HTML omitted -->
 
   
 </div>
 
 <section class="flex flex-col gap-10">
+  
+    <article class="flex flex-col gap-1">
+  <h1>
+    <a href="https://nphuang.github.io/posts/first-post/">First post</a>
+  </h1>
+  
+  <span class="date">
+    <time datetime="2024-03-30 16:21:53 &#43;0800 CST" title='Sat, Mar 30, 2024, 4:21 PM CST'>
+      30/03/2024
+    </time>
+  </span>
+
+  <div class="description">
+    
+      ########
+    
+  </div>
+
+  <div class="mt-2">
+    <a class="read-more" href="https://nphuang.github.io/posts/first-post/">
+      Read more
+      <span class="w-4 h-4 stroke-2">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+</svg>
+
+      </span>
+    </a>
+  </div>
+</article>
+
   
 </section>
 
@@ -191,11 +222,11 @@
     
     
     <li>    
-      <a href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+      <a href="mailto:phqq.cs10@nycu.edu.tw" target="_blank" rel="noopener noreferrer">Email</a>
     </li>
     
     <li>    
-      <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/nphuang" target="_blank" rel="noopener noreferrer">GitHub</a>
     </li>
     
     
